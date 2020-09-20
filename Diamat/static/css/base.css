@@ -1,0 +1,57 @@
+body{
+    background-color: #FFF!important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.img-limit{
+    height: 15vw;
+    max-width: 200px;
+
+    object-fit: cover;
+}
+.img-limit-w{
+    height: 15vw;
+    max-width: 15vw;
+    
+    object-fit: cover;
+}
+
+.popular-post-url{
+    text-decoration: none;
+    color: inherit;
+}
+
+.popular-post-url:hover{
+    text-decoration: none;
+    color: #CCC;
+}
+.new-entry{
+    background-color: ivory;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+
+.new-entry:hover{
+
+background-color: khaki;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1600px){
+    .container{
+        max-width: 1400px!important;
+    }
+}

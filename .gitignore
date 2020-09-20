@@ -1,3 +1,6 @@
+# Secret information
+local.py 
+Diamat/assets/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
